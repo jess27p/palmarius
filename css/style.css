@@ -111,6 +111,7 @@ a:focus, a:hover {
 		padding: 5em 0;
 		position: absolute;
 		z-index: 999;
+                margin-left: 12.5%;
 	}
 
 	.navbar {
@@ -137,8 +138,8 @@ a:focus, a:hover {
 
 	.w3_navigation_pos img {
 		margin-top: 5%;
-                width: 350px;
-                margin-left: -22%;
+/*                width: 350px;
+                margin-left: -22%;*/
 	}
 
 	.w3_navigation_pos h1 {
@@ -308,8 +309,8 @@ a:focus, a:hover {
 		transform: translateX(0);
 	}
 
-	.navbar-nav > li:nth-child(3) a {
-		margin-right: 24.1em!important;
+	.navbar-nav > li:nth-child(2) a {
+		margin-right: 28.1em!important;
 	}
 
 	/*-- Navbar-Hover-Effects --*/
@@ -386,7 +387,7 @@ a:focus, a:hover {
 	/*-- Fading-Image --*/
 
 	.animated {
-		background-image: url("../images/heading.png");
+		background-image: url("../images/palmarius-big.png");
 		background-repeat: no-repeat;
 		background-position: center;
 		margin-top: 20%;
@@ -430,7 +431,7 @@ a:focus, a:hover {
 	background: -webkit-linear-gradient(#6e72bb, #4A75C6);
 	background: -o-linear-gradient(#6e72bb, #4A75C6);
 	background: -moz-linear-gradient(#6e72bb, #4A75C6);
-	background: linear-gradient(#6e72bb, #4A75C6);
+	background: linear-gradient(rgb(6, 25, 39), #4A75C6);
 	padding: 100px 0;
 }
 
@@ -510,14 +511,14 @@ a:focus, a:hover {
 
 .modal-content {
 	position: relative;
-	border: 1px solid #FFF;
-	border-radius: 0;
+/*	border: 1px solid #FFF;*/
+	border-radius: 20px;
 	outline: 0;
 	background: #333333;
 	background: -webkit-linear-gradient(#6e72bb, #4A75C6);
-	background: -o-linear-gradient(#6e72bb, #4A75C6);
+	background: -o-linear-gradient(#6e72bb, rgba(0, 255, 243, 0.5));
 	background: -moz-linear-gradient(#6e72bb, #4A75C6);
-	background: linear-gradient(#6e72bb, #4A75C6);
+	background: linear-gradient(rgba(0, 161, 255, 0.5), rgba(2, 255, 57, 0.5));
 	-webkit-box-shadow: 0px 0px 75px 7px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 75px 7px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 75px 7px rgba(0,0,0,0.75);
