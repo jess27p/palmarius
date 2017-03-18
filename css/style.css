@@ -9,7 +9,7 @@
 
 
 
-/*-- Reset-Code --*/
+
 
 body {
 	padding: 0;
@@ -111,7 +111,7 @@ a:focus, a:hover {
 		padding: 5em 0;
 		position: absolute;
 		z-index: 999;
-                margin-left: 12.5%;
+                margin-left: 7%;
 	}
 
 	.navbar {
@@ -2082,7 +2082,7 @@ li.agiletravelerw3ls p {
 /*-- Contact --*/
 
 .agilecontactw3ls {
-	background-image: url("../images/contact.jpg");
+	background-image: url("../images/contact-green.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -2095,16 +2095,16 @@ li.agiletravelerw3ls p {
 
 .agilecontactw3ls-grid input[type="text"], .agilecontactw3ls-grid input[type="email"], .agilecontactw3ls-grid textarea {
 	width: 100%;
-	padding: 10px;
-	border: 1px solid #FFF;
-	color: #fff;
-	outline: none;
-	background: transparent;
-	border-left: 5px solid #FFF;
-	border-radius: 0;
-	margin-bottom: 20px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 13px;
+        padding: 10px;
+        border: none;
+        color: #fff;
+        outline: none;
+        background: rgba(18, 177, 185, 0.25);
+        /* border-left: 5px solid #FFF; */
+        border-radius: 0;
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
 }
 
 .agilecontactw3ls-grid input[type="email"], .agilecontactw3ls-grid textarea {
@@ -2112,7 +2112,7 @@ li.agiletravelerw3ls p {
 }
 
 .agilecontactw3ls-grid textarea {
-	height: 160px;
+	height: 235px;
 }
 
 .agilecontactw3ls-grid .send-button {
@@ -2121,17 +2121,18 @@ li.agiletravelerw3ls p {
 
 .agilecontactw3ls input[type="submit"] {
 	padding: 4px 40px;
-	font-family: 'Montserrat', sans-serif;
-	background-color: #FFF;
-	color: #000;
-	border: 5px solid transparent;
-	font-size: 16px;
-	float: right;
+        font-family: 'Montserrat', sans-serif;
+        background-color: transparent;
+        color: #FFF;
+        border: 1px solid #FFF;
+        font-size: 16px;
+        float: right;
+        border-radius: 20px;
 }
 
 .agilecontactw3ls input[type="submit"]:hover {
-	background-color: transparent;
-	border-color: #FFF;
+	background-color: rgba(9, 247, 189, 0.15);
+        border-color: transparent;
 	color: #FFF;
 }
 
@@ -2283,6 +2284,7 @@ address {
 .copyright {
 	padding: 50px 15px;
 	text-align: center;
+        background: rgb(0, 186, 216);
 }
 
 .copyright p {
