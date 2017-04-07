@@ -390,7 +390,7 @@ a:focus, a:hover {
 		background-image: url("../images/palmarius-big.png");
 		background-repeat: no-repeat;
 		background-position: center;
-		margin-top: 20%;
+		margin-top: 5%;
 		padding-top: 285px;
 		margin-bottom: 60px;
 		-webkit-animation-duration: 10s;
@@ -3543,7 +3543,7 @@ address {
     background: url(../images/nave.png) no-repeat;
     background-size: 100%;
     margin-left: -30%;
-    margin-top: -30%;
+    margin-top: -500%;
     z-index: 1;
 }
 
@@ -3554,7 +3554,56 @@ address {
     vertical-align: middle;
 }
 
+.header{
+	float: left;
+	display: inline;
+	width: 100%;
+}
+/*.header-inner{	
+	display: none;
+	position: absolute;
+	float: left;	
+	width: 100%;
+}
+.header-inner>img{
+	width: 100%;
+}*/
+.header-overlay{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+.header-content {
+	float: left;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+.header-content h2 {
+	font-size: 80px;
+        font-family: "Orbitron";
+        color: white;
+	line-height: 80px;
+        -webkit-animation: zoomInDown 1s;
+}
 
+.header-content h1 {
+	font-size: 100px;
+        font-family: "Lobster Two";
+        color: white;
+	line-height: 80px;
+        -webkit-animation: flipInY 1s;
+}
 
+.header-content h3 {
+	font-size: 50px;
+        font-family: "Architects Daughter";
+        color: white;
+	line-height: 80px;
+        -webkit-animation: bounceInUp 1s;
+}
 
 /*-- //Responsive-Code --*/

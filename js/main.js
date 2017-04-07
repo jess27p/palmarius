@@ -17,7 +17,8 @@ jQuery(document).ready(function($){
 		
 		(device == 'mobile') && updateBlock(imagesList.index($(this).parent('li')), 'mobile');
 	});
-
+        
+        
 	//on mobile - close visible project when clicking the .cd-close btn
 	contentWrapper.on('click', '.cd-close', function(){
 		var closeBtn = $(this);
