@@ -572,15 +572,16 @@ h4.modal-title {
 /*-- Details --*/
 
 .agileinfodetails {
-	background-image: url("../images/details.jpg");
-	background-repeat: no-repeat;
+	background: url("../images/alien-background.jpg") no-repeat;
 	background-position: center;
-	background-size: cover;
-	-webkit-background-size: cover;
+	background-size:cover;
+        width: 100%;
+        display: inline-block;
+/*	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-attachment: fixed;
-	padding: 250px 0;
+	background-attachment: fixed;*/
+/*	padding: 250px 0;*/
 }
 
 .agileinfodetails-heading h3 {
@@ -2454,8 +2455,8 @@ address {
 		margin: 0 auto;
 	}
 	.wthreexperience .animated {
-		background-size: 80%;
-/*		margin-top: 27%;*/
+		background-size: 100%;
+		margin-top: 27%;
 	}
 	.agileinfodetails {
 		padding: 225px 0;
@@ -2510,7 +2511,7 @@ address {
 		font-size: 25px;
 	}
 	.agileinfodetails {
-		padding: 125px 0;
+/*		padding: 125px 0;*/
 	}
 	.agileinfodetails-heading h3 {
 		width: 50%;
@@ -3008,7 +3009,7 @@ address {
 		padding: 20px;
 	}
 	.agileinfodetails {
-		padding: 100px 0;
+/*		padding: 100px 0;*/
 	}
 	.agileinfodetails-heading h3 {
 		font-size: 50px;
@@ -3110,7 +3111,7 @@ address {
 		font-size: 23px;
 	}
 	.agileinfodetails {
-		padding: 75px 0;
+/*		padding: 75px 0;*/
 	}
 	a.popup-with-zoom-anim:hover {
 		padding: 10px 35px;
@@ -3331,7 +3332,7 @@ address {
 		color: #FFF;
 	}
 	.agileinfodetails {
-		padding: 50px 0;
+/*		padding: 50px 0;*/
 	}
 	.agileinfodetails-heading h3 {
 		width: 70%;
@@ -3566,55 +3567,54 @@ address {
 }
 
 .header{
-	float: left;
-	display: inline;
-	width: 100%;
+    float: left;
+    display: inline;
+    width: 100%;
 }
-/*.header-inner{	
-	display: none;
-	position: absolute;
-	float: left;	
-	width: 100%;
-}
-.header-inner>img{
-	width: 100%;
-}*/
+
 .header-overlay{
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 10;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 .header-content {
-	float: left;
-	height: 100%;
-	text-align: center;
-	width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    width: 100%;
 }
-.header-content h2 {
-	font-size: 80px;
-        font-family: 'Orbitron', 'sans-serif';
-        color: white;
-	line-height: 80px;
-        -webkit-animation: zoomInDown 1s;
+.detalles h2 {
+    font-size: 500%;
+    font-family: 'Orbitron', 'sans-serif';
+    color: white;
+    line-height: 80px;
 }
-
-.header-content h1 {
-	font-size: 100px;
-        font-family: 'LobsterTwo', 'cursive';
-        color: white;
-	line-height: 80px;
-        -webkit-animation: flipInY 1s;
+.detalles h1 {
+    font-size: 400%;
+    font-family: 'LobsterTwo', 'cursive';
+    color: white;
+    line-height: 80px;
 }
 
-.header-content h3 {
-	font-size: 50px;
-        font-family: 'ArchitectsDaughter', 'cursive';
-        color: white;
-	line-height: 80px;
-        -webkit-animation: bounceInUp 1s;
+.detalles h3 {
+    font-size: 300%;
+    font-family: 'ArchitectsDaughter', 'cursive';
+    color: white;
+    line-height: 80px;
 }
 
+@media handheld, only screen and (max-width: 767px) {
+    .nave .alien{
+    display:none;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .nave .alien{
+    display:none;
+    }
+}
 /*-- //Responsive-Code --*/
