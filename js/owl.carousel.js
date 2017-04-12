@@ -1470,10 +1470,10 @@ if (typeof Object.create !== "function") {
         rewindSpeed : 1000,
 
         autoPlay : false,
-        stopOnHover : false,
+        stopOnHover : true,
 
         navigation : false,
-        navigationText : ["prev", "next"],
+        navigationText : ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
         rewindNav : true,
         scrollPerPage : false,
 

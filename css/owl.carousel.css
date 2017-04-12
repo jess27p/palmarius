@@ -43,8 +43,9 @@
 }
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
-	cursor: pointer;
+	cursor: pointer;     
 }
+
 .owl-controls {
 	-webkit-user-select: none;
 	-khtml-user-select: none;
