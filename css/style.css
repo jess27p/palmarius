@@ -980,7 +980,7 @@ h4.modal-title {
 }
 
 .item {
-	height: 650px;
+	height: 550px;
 	border-right: 1px solid #777;
 	padding: 20px;
 	background-color: #F5F5F5;
@@ -3401,7 +3401,7 @@ address {
 		max-width: 325px;
 	}
 	.item {
-		height: 100%;
+		height: 450px;
 	}
 	.agilegrid h4 {
 		font-size: 23px;
