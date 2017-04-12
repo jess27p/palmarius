@@ -6,9 +6,20 @@
 --*/
 
 
+@font-face {
+	font-family: ArchitectsDaughter;
+	src: url(../fonts/ArchitectsDaughter.ttf);
+}
 
+@font-face {
+	font-family: LobsterTwo;
+	src: url(../fonts/LobsterTwo.ttf);
+}
 
-
+@font-face {
+	font-family: Orbitron;
+	src: url(../fonts/Orbitron.ttf);
+}
 
 
 body {
@@ -3584,7 +3595,7 @@ address {
 }
 .header-content h2 {
 	font-size: 80px;
-        font-family: "Orbitron";
+        font-family: 'Orbitron', 'sans-serif';
         color: white;
 	line-height: 80px;
         -webkit-animation: zoomInDown 1s;
@@ -3592,7 +3603,7 @@ address {
 
 .header-content h1 {
 	font-size: 100px;
-        font-family: "Lobster Two";
+        font-family: 'LobsterTwo', 'cursive';
         color: white;
 	line-height: 80px;
         -webkit-animation: flipInY 1s;
@@ -3600,7 +3611,7 @@ address {
 
 .header-content h3 {
 	font-size: 50px;
-        font-family: "Architects Daughter";
+        font-family: 'ArchitectsDaughter', 'cursive';
         color: white;
 	line-height: 80px;
         -webkit-animation: bounceInUp 1s;
