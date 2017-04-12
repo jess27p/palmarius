@@ -561,7 +561,7 @@ h4.modal-title {
 /*-- Details --*/
 
 .agileinfodetails {
-	background: url("../images/alien2.png") no-repeat;
+	background: url("../images/alien-background.jpg") no-repeat;
 	background-position: center;
 	background-size:cover;
         width: 100%;
