@@ -4180,7 +4180,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar {
-    border-radius: 4px;
+/*    border-radius: 4px;*/
+    padding-top: 2.5%;
   }
 }
 @media (min-width: 768px) {

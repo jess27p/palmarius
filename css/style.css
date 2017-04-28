@@ -21,11 +21,15 @@
 	src: url(../fonts/Orbitron.ttf);
 }
 
+@font-face {
+	font-family: Raleway;
+	src: url(../fonts/Raleway-Regular.ttf);
+}
 
 body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	position: relative;
 }
 
@@ -119,10 +123,7 @@ a:focus, a:hover {
 	}
 
 	nav.navbar.navbar-default {
-		padding: 5em 0;
-		position: absolute;
 		z-index: 999;
-                margin-left: 7%;
 	}
 
 	.navbar {
@@ -189,7 +190,6 @@ a:focus, a:hover {
 		color: #FFF;
 		font-family: 'Montserrat', sans-serif;
 		font-size: 16px;
-		padding: 10px 20px;
 	}
 
 	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
@@ -321,7 +321,7 @@ a:focus, a:hover {
 	}
 
 	.navbar-nav > li:nth-child(2) a {
-		margin-right: 28.1em!important;
+/*		margin-right: 28.1em!important;*/
 	}
 
 	/*-- Navbar-Hover-Effects --*/
@@ -581,7 +581,7 @@ h4.modal-title {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-attachment: fixed;*/
-/*	padding: 250px 0;*/
+	padding: 250px 0!important;
 }
 
 .agileinfodetails-heading h3 {
@@ -2444,8 +2444,17 @@ address {
 	.agilehovereffect li {
 		margin: 15px 9.6px;
 	}
+        .wthreexperience .animated {
+		background-size: 70%;
+		margin-top: 18%;
+	}
 }
 
+@media screen and (min-width:1440px){
+    .nave .alien {
+            margin-top:150% !important;
+        }
+}
 @media screen and (max-width: 1366px) {
 	.agilehovereffect li {
 		margin: 15px 9.6px;
@@ -2478,7 +2487,7 @@ address {
 		font-size: 16px;
 	}
 	.navbar-nav > li:nth-child(3) a {
-		margin-right: 18em !important;
+/*		margin-right: 18em !important;*/
 	}
 	.w3lsaboutaits, .wthreelocationsaits, .agilepackagesw3l, .w3portfolioaits, .agilecontactw3ls {
 		padding: 75px 0;
@@ -2591,7 +2600,7 @@ address {
 	}
 	.navbar-default .navbar-nav>li>a {
 		font-size: 14px;
-		font-weight: 700;
+/*		font-weight: 700;*/
 	}
 	.container {
 		width: 100%;
@@ -2737,7 +2746,7 @@ address {
 		padding: 10px 13.4px;
 	}
 	nav.navbar.navbar-default {
-		padding: 4em 0;
+/*		padding: 4em 0;*/
 	}
 	.navbar-default .navbar-nav>li>a {
 		padding: 10px 12.5px;
@@ -2925,8 +2934,7 @@ address {
 
 @media screen and (max-width: 767px) {
 	nav.navbar.navbar-default {
-		padding: 1.5em 0;
-		width: 100%;
+		display:none;
 	}
 	.w3_navigation_pos {
 		width: 100%;
@@ -3616,5 +3624,58 @@ address {
     .nave .alien{
     display:none;
     }
+}
+
+#services{
+    line-height: 150%;
+    padding: 5%;
+    background: linear-gradient(rgb(6, 25, 39), #581384);
+}
+#services h2{
+    color:white !important;
+    font-size: 40px;
+}
+
+.service-box:hover .iconbox {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+
+.service-box {
+    margin:50px auto 0;
+    max-width:400px;
+}
+@media(min-width:992px) {
+    .service-box {
+            margin:20px auto 0;
+    }
+}
+.service-box p {
+	margin-bottom:0;
+	color:white;
+}
+.service-box h3{
+	text-transform: uppercase;
+	color:#daa9da;
+	font-size: 20px;
+        padding-bottom: 5%;
+        font-weight: bold;
+        font-family: "Raleway",sans-serif;
+}
+.iconbox {
+	display:inline-block;
+	width:80px;
+	height:80px;
+	color:#fff;
+	border-radius:50%;
+	line-height:90px;
+	font-size: 25px;
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
 }
 /*-- //Responsive-Code --*/
